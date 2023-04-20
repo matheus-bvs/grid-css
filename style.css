@@ -1,0 +1,72 @@
+.area{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 15vh 5vh 30vh 25vh 25vh 5vh;
+    grid-gap: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+
+body{
+    background-color: indigo;
+}
+header{
+    background-color: darkorange;
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+nav{
+    background-color: darkgreen;
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+main{
+    background-color: aquamarine;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+section{
+    background-color: blue;
+    grid-column-start: 3;
+    grid-column-end: 7;
+}
+#a0{
+    background-color: deeppink;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#a1{
+    background-color: rgb(161, 111, 138);
+    grid-column-start: 2;
+    grid-column-end: 6;
+}
+#a2{
+    background-color: deepskyblue;
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+#a3{
+    background-color:  rgb(173, 182, 182);
+    grid-column-start: 1;
+    grid-column-end: 4;
+    padding-left: 40px;
+}
+#a4{
+    background-color: darkslategrey;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    padding-right: 40px;
+}
+
+footer{
+    background-color: chartreuse;
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
